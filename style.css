@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: arial,sans-serif;
+}
+.navbar{
+   height: 60px;
+   width: 100vw;
+   background-color: #0f1111;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.nav-logo{
+  height: 50px;
+  width: 150px;
+}
+
+.logo{
+    background-image: url(images/amazon-logo-editorial-free-vector.jpg);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-add-icon{
+    display: flex;
+}
+.add-1{
+    color: #cccccc;
+    font-size: 0.85rem;
+   margin-left: 15px;
+}
+.nav-add-icon{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.nav-address{
+    align-items: center;
+    height: 50px;
+    width: 200px;
+}
+.nav-add{
+    margin-top: 5px;
+}
+.nav-add-icon{
+    margin-bottom: 5px;
+}
+.select-button{
+      max-height: 100px;
+      max-width: 30px;
+      overflow: hidden;
+}
+#option{
+    height: 2rem;
+    border: 2px solid coral;
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 620px;
+    background-color: orange;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.search-box{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.icon-box{
+    width:45px;
+    text-align: center;
+    padding-top:10px ;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.nav-flag{
+    background-image: url(images/Flag-India.webp);
+    height: 20px;
+    width: 28px;
+    background-size: cover;
+    padding-right: 5px;
+   
+}
+.nav-country{
+    align-items: center;
+    height: 50px;
+    width: 60px;
+    display: flex;
+    
+}
+.nav-count-list{
+    background-color: #0f1111;
+    height: 55%;
+    width: 18%;
+    color: white;
+    padding-left: 17px;
+    border: none;
+    
+}
+span{
+    width: 70.41px;
+    height: 14px;
+    font-size: 12px;
+    color: #cccccc;
+}
+.nav-second{
+    width: 110.53px;
+    height: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.nav-signin{
+    align-items: center;
+    height: 50px;
+    width: 110.53px;
+}
+.border1:hover{
+   border: 2px solid orange;
+}
+.nav-cart{
+    align-items: center;
+    height: 50px;
+    width: 65px;
+    display: flex;
+}
+   
+.nav-cart i{
+   font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+}
+.cart{
+    padding-top:10px ;
+}
+.pannel{
+    height: 39px;
+    width: 100vw;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pannel-all{
+    height: 35px;
+    width: 58.9px;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.fresh{
+    display: flex;
+   align-items: center;
+   width: 61.9px;
+   padding-left: 13px;
+}
+.fresh-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.arrow i{
+    width: 8px;
+    height: 4px;
+}
+.mx-player{
+    display: flex;
+   align-items: center;
+}
+
+.sell{
+    display: flex;
+   align-items: center;
+   width:33.38px ;
+   padding-left:6px ;
+}
+
+.best-sellers{
+    display: flex;
+   align-items: center;
+   padding-left:6px ;
+}
+
+.mobile{
+    display: flex;
+    align-items: center;
+    padding-left:6px ;
+}
+
+.todays-deals{
+    display: flex;
+    align-items: center;
+    padding-left:6px ;
+   
+}
+.prime{
+    display: flex;
+    align-items: center;
+    padding-left:6px ;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-right:6px ;
+}
+.customer-service{
+    display: flex;
+    align-items: center;
+    padding-left:6px ;
+}
+.new-release{
+    display: flex;
+    align-items: center;
+    padding-left:6px ;
+}
+.fashion{
+    display: flex;
+    align-items: center;
+    padding-left:6px ;
+}
+.electronics{
+    display: flex;
+    align-items: center;
+    padding-left:6px ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.slider-container {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    background-color: #222;
+    
+}
+
+.slider {
+    position: absolute;
+    width: 500vw;
+    height: 100%;
+    display: flex;
+    animation: slide 25s infinite;
+   
+}
+
+.slide {
+    width: 100vw;
+    height: 130%;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    12% { transform: translateX(-100vw); }
+    20% { transform: translateX(-100vw); }
+    32% { transform: translateX(-200vw); }
+    40% { transform: translateX(-200vw); }
+    52% { transform: translateX(-300vw); }
+    60% { transform: translateX(-300vw); }
+    72% { transform: translateX(-400vw); }
+    80% { transform: translateX(-400vw); }
+    92% { transform: translateX(-500vw); }
+    100% { transform: translateX(-500vw); }
+}
+
+
+.columns-container {
+    width: 100vw;
+    height: 30vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.column {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+.column h2 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    font-family: Arial, sans-serif;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    height: 100%;
+}
+
+.image-link {
+    height: 100%;
+    min-height: 60px;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-link:hover {
+    transform: scale(1.05);
+}
+
+.image-link a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        height: 60vh;
+    }
+    .columns-container {
+        height: 40vh;
+    }
+    .columns-wrapper {
+        flex-wrap: wrap;
+    }
+    .column {
+        min-width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-container {
+        height: 50vh;
+    }
+    .columns-container {
+        height: 50vh;
+    }
+    .column {
+        min-width: 100%;
+    }
+}
